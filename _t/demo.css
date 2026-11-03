@@ -3,4 +3,18 @@
 .demo-modal{position:fixed;inset:0;z-index:100000;background:rgba(0,0,0,.8);display:none;align-items:center;justify-content:center;padding:16px}
 .demo-modal.on{display:flex}.demo-modal>div{background:#111;color:#fff;border:2px dashed #FFE0AD;max-width:440px;padding:32px;font:500 17px/1.5 Montserrat,Arial,sans-serif;text-align:center;position:relative}
 .demo-modal button{margin-top:20px;background:#E10E07;color:#fff;border:0;padding:12px 28px;font:600 15px Montserrat,Arial,sans-serif;cursor:pointer}
+.demo-stub-slim{min-height:0;height:100%;padding:0 16px;font-size:15px}
+#rec1925506911 .t396__artboard{height:72px!important;min-height:0!important}
+#rec1925506911 .tn-elem__19255069111772807553746{height:72px!important}
+#rec1925506911 .tn-atom__html{height:72px!important}
+.ps-track{overflow-x:auto!important;overflow-y:hidden!important;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;cursor:grab;outline-offset:6px}
+.ps-track::-webkit-scrollbar{display:none}
+.ps-track>.slide{scroll-snap-align:start;flex:none}
+.ps-track.ps-drag{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.ps-track img{-webkit-user-drag:none;user-select:none}
+.ps-track:focus-visible{outline:2px solid #FFE0AD}
+.ps-arrow{transition:opacity .2s;cursor:pointer}
+.ps-arrow.ps-off{opacity:.4;cursor:default}
+.ps-arrow:focus-visible{outline:2px solid #FFE0AD;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.ps-track{scroll-behavior:auto}}
 .demo-note{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#FFE0AD;color:#000;padding:12px 20px;font:600 14px Montserrat,Arial,sans-serif;z-index:100000;display:none;max-width:90vw;text-align:center}
